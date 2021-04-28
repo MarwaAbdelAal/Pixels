@@ -1,0 +1,237 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+.parent {
+    color: white;
+    padding-bottom: 300px;
+    background-color: #222222;
+}
+
+.parent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom:150px;
+    margin-top: 20px;
+}
+
+.nav {
+    float: left;
+}
+
+.parent li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    float: right;
+}
+
+.child {
+    text-align: center;
+}
+
+.child p {
+    margin: auto;
+    padding: 15px;
+    width: 50%;
+}
+
+.bu {
+    background-color: #f0c30e;
+    border: none;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bu:hover {
+    background-color: rebeccapurple;
+}
+
+.price {
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+}
+
+.price h1 {
+    color: grey;
+    text-align: center;
+    margin: 0%;
+    padding: 30px 0px;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.temp {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    height: 300px;
+    background: white;
+    border-radius: 30px;
+    margin:0px 5px;
+    padding: 5px 10px;
+}
+
+.title {
+    color: #40c2b3;
+}
+
+.money {
+    background-color: #cccccc;
+    border-radius: 50%;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    height: 20px;
+}
+
+.customer {
+    background-color: white;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.customer h1 {
+    margin: 0px;
+    padding: 30px 0px 20px;
+}
+
+.green {
+    background-color:#008001;
+    border: none;
+    color: white;
+    padding: 30px;
+    font-size:20px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.red {
+    background-color: #fe0000;
+    border: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.blue {
+    background-color:#0000fe;
+    border: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.team {
+    background-color:#222222 ;
+}
+
+.team h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.people {
+    text-align: center;
+    margin: 1% 1%;
+    color: white;
+}
+
+.person {
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+    padding: 30px 0px;
+}
+
+.person img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+}
+
+.join {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 15%;
+    padding: 12px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    background-color: #222222;
+    padding-bottom: 30px;
+}
+
+.contact h1 {
+    color: white;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+textarea {
+    width: 15%;
+    padding: 10px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.message {
+    padding-bottom: 70px; 
+}
+
+.bu2 {
+    border: none ;
+    border-radius: 10px ;
+    background-color: red ;
+    padding: 14px;
+}

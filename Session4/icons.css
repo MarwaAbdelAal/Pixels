@@ -1,0 +1,69 @@
+.page {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.N {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+@media(max-width: 800px) {
+    .N {
+        background-color: darkgray;
+    }
+}
+
+.first {
+    color: rgba(245, 245, 245, 0.959);
+    margin: 100px 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.second {
+    width: 50%;
+}
+
+.solarize {
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+
+.page2 {
+    background-color: whitesmoke;
+    padding:50px;
+}
+
+.element {
+    width: 80%;
+}
+
+
+.parent {
+    width:80%;
+}
+
+.green {
+    width: 50%;
+}
+
+.page3 {
+    color: white;
+    padding: 80px 0px;
+    width: 100%;
+    background-color: green;
+}
+
+.page4 {
+    padding: 50px 0px;
+}
+
+.icon {
+    color: #82b440;
+}
+
+.page4 p {
+    margin: 15px 0px;
+}
